@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "your_business_brand_colors",
+  "info": {
+    "name": "Your Business Brand - Colors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "primary": {
+      "type": "string",
+      "regex": "Primary Color",
+      "required": true,
+      "maxLength": 6,
+      "minLength": 6
+    },
+    "primary_light": {
+      "type": "string",
+      "regex": "Primary Color (Lighter)",
+      "maxLength": 6,
+      "minLength": 6
+    },
+    "primary_dark": {
+      "type": "string",
+      "regex": "Primary Color (Darker)",
+      "maxLength": 6,
+      "minLength": 6
+    }
+  }
+}

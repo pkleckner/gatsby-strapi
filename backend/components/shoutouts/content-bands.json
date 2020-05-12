@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shoutouts_content_bands",
+  "info": {
+    "name": "content_bands",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "content_band": {
+      "model": "content-bands"
+    }
+  }
+}

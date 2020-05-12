@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/your-business-brand-colors",
+      "handler": "your-business-brand-colors.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/your-business-brand-colors",
+      "handler": "your-business-brand-colors.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/your-business-brand-colors",
+      "handler": "your-business-brand-colors.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

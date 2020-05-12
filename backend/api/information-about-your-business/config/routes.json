@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/information-about-your-business",
+      "handler": "information-about-your-business.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/information-about-your-business",
+      "handler": "information-about-your-business.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/information-about-your-business",
+      "handler": "information-about-your-business.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
